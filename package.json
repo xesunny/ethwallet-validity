@@ -1,6 +1,6 @@
 {
   "name": "ethwallet-validity",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Package to check if ETH wallet is had any transaction before a specified block number",
   "main": "index.js",
   "scripts": {
