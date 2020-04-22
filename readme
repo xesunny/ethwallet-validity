@@ -1,0 +1,11 @@
+How to use
+==================
+
+1) Get an API Key (free) from etherscan
+
+2) const checker = require('ethwallet-validity');
+
+3) checker.init(apiKey);
+
+4) checker.checkValidity(walletAddr, startBlock, endBlock)
+returns a promise that will lead to boolean true or false.

@@ -1,0 +1,19 @@
+{
+  "name": "ethwallet-validity",
+  "version": "1.0.1",
+  "description": "Package to check if ETH wallet is had any transaction before a specified block number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ETH",
+    "Wallet",
+    "KyberSwap"
+  ],
+  "author": "Sunny Jain",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
