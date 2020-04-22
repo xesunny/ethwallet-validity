@@ -6,6 +6,10 @@ exports.init = (apikey)=>{
 }
 
 exports.checkValidity = async (addr, startBlock, endBlock)=>{
+    if(!addr || (startBlock > endBlock)){
+        console.error("Invalid input");
+    }
+    
     return checkValidit(addr, startBlock, endBlock);
 }
 
